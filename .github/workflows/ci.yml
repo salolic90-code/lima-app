@@ -4,14 +4,9 @@ on:
   push:
     branches:
       - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
 
 jobs:
-  laravel-tests:
+  test:
     runs-on: ubuntu-latest
 
     steps:
